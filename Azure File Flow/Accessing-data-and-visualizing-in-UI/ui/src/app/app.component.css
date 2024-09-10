@@ -1,0 +1,30 @@
+
+
+h2{
+    margin-bottom: 20px;
+    color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+body {
+    background-color: #753f3f20;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.content-container {
+    padding: 20px;
+}
+

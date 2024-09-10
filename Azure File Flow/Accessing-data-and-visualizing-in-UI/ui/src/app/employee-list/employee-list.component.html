@@ -1,0 +1,34 @@
+
+
+<h2>Transaction Details</h2>
+
+
+<div class="table-container">
+
+<table>
+    <thead>
+        <tr>
+            
+            
+            <th>  Name  </th>
+            <th>  TransactionId  </th>
+            <th>  Amount </th>
+            <th>  Date  </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of employees" (mouseover)="highlightRow($event)" (mouseout)="unhighlightRow($event)">
+            
+            
+            <td>{{   employee.name   }}</td>
+            <td>{{   employee.transactionId   }}</td>
+            <td>{{   employee.amount   }}</td>
+            <td>{{   employee.date | date: 'dd-MM-yyyy' }}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+
+
+
