@@ -8,9 +8,9 @@ Reads files from an Azure Storage account.
 
 Validates the files based on predefined rules (file format). If a file is valid, it is moved to a "Valid" folder; if invalid, it is transferred to an "Invalid" folder within the Azure Blob Storage.
 
-**Data Ingestion into Azure Cosmos DB (MongoDB API):**
+**Data Ingestion into Azure Cosmos DB:**
 
-For valid files, data is extracted and inserted into Azure Cosmos DB using the MongoDB API.
+For valid files, data is extracted and inserted into Azure Cosmos DB.
 
 **Scheduled Automation via Cron Job:**
 
@@ -19,7 +19,7 @@ This job is deployed on Azure Kubernetes Service (AKS) to leverage containerized
 
 **Acknowledgement Emails:**
 
-Upon successful file processing (valid or invalid), an acknowledgment email is sent to notify relevant users about the status of the file.
+Upon successful file processing (valid or invalid), an acknowledgment email is sent to notify relevant users about the status of the file using Azure Logic App.
 
 **UI Integration using Angular:**
 
