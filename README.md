@@ -28,4 +28,4 @@ The interface allows users to view processed data and track file statuses direct
 
 **Tech Stack**
 
-C# .net, Azure Storage Account, Azure Cosmos DB (Mongo DB), Azure Function App, Azure Logic App, AKS, Angular
+C# .net, Microsoft Azure – (Azure Storage Account, Azure Cosmos DB (Mongo DB), Azure Function App, Azure Logic App, AKS), Angular, Docker
